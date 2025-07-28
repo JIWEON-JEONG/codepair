@@ -3,12 +3,12 @@ on:
   push:
     branches: [main, test-electron-ci]
     paths:
-      - ".github/workflows/ci_desktop.yaml.yml"
+      - ".github/workflows/ci_desktop.yaml"
       - "desktop/**"
   pull_request:
     branches: [main, test-electron-ci]
     paths:
-      - ".github/workflows/ci_desktop.yaml.yml"
+      - ".github/workflows/ci_desktop.yaml"
       - "desktop/**"
 
 jobs:
