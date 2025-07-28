@@ -1,12 +1,12 @@
 name: CI Desktop Electron
 on:
   push:
-    branches: [main]
+    branches: [main, test-electron-ci]
     paths:
       - ".github/workflows/desktop-ci.yml"
       - "desktop/**"
   pull_request:
-    branches: [main]
+    branches: [main, test-electron-ci]
     paths:
       - ".github/workflows/desktop-ci.yml"
       - "desktop/**"
